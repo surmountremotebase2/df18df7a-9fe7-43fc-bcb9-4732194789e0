@@ -5,6 +5,7 @@ class TradingStrategy(Strategy):
 
     def __init__(self):
         self.ticker = "BTC"
+        self.spy = "BTC"
         self.amount = 100  # Dollar amount to invest at each interval
         self.investment_interval = 30  # Number of days between investments
         self.count = 0
